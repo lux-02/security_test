@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 // Simulated user database with WEAK passwords
 const users = [
   { username: 'admin', password: 'admin', role: 'admin' },

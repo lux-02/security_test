@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 const STRIPE_SECRET_KEY = "sk_live_51PTESTlxDC4TfOzVl1cnwFQ"; // Intentional secret for leak detection testing
 
 export async function GET() {

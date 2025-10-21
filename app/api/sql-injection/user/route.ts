@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 // Simulated database
 const users = [
   { id: 1, username: 'admin', email: 'admin@example.com', role: 'admin', ssn: '123-45-6789' },

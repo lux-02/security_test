@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST() {
   // VULNERABLE: No server-side session invalidation
   // Just removes the cookie on client side

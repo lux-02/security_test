@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 const profiles = {
   'user_123': { id: 'user_123', name: 'Regular User', email: 'user@example.com', role: 'user', ssn: '123-45-6789' },
   'user_456': { id: 'user_456', name: 'John Doe', email: 'john@example.com', role: 'user', ssn: '987-65-4321' },
